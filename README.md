@@ -1,10 +1,16 @@
-# Progressive Budget Tracker
+# Budget Tracker
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
             
 ## Description
 
 This application allows users to add deposits & expenses to their budget both online as well as offline.
+
+## User Story 
+
+AS AN avid traveller
+I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+SO THAT my account balance is accurate when I am traveling.
 
 ## Table of Contents
 
@@ -24,7 +30,7 @@ This application allows users to add deposits & expenses to their budget both on
 
 ## Deployment
 
-<a href="#">Budget Tracker (click to view)</a>
+<a href="https://ps-budget-tracker.herokuapp.com/">Budget Tracker (click to view)</a>
 
 
 <img src="./public/assets/images/BudgetTracker.png">
