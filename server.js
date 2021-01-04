@@ -20,10 +20,12 @@ app.use(express.static("public"));
 // MongoDB Atlas connection
 const PWD = process.env.MONGO_PWD;
 
-mongoose.connect(`mongodb+srv://prabhm512:${PWD}@cluster0.ltepl.mongodb.net/budget`, {
+const databaseURL = `mongodb+srv://prabhm512:${PWD}@cluster0.ltepl.mongodb.net/budget`;
+
+mongoose.connect(process.env.MONGODB_URI || databaseURL, {
   useNewUrlParser: true,
   useFindAndModify: false
-});;
+});
 
 // routes
 app.use(require("./routes/api.js"));
